@@ -16,6 +16,7 @@
         opacity: 1;
     }
 
+/* For Google Chrome, Edge, Safari and  */
 .PersonalityScale::-webkit-progress-value {
         /* Color of Progress Bar */
         background-color: #33358D;
@@ -30,6 +31,7 @@
         border-radius: 12px;
     }
 
+/* For Firefox */
 .PersonalityScale::-moz-progress-bar {
         /* Color of Progress Bar */
         background-color: #33358D;
