@@ -1,0 +1,31 @@
+.PersonalityScale {
+        /* Scale */
+        height: 10px;
+        width: 100%;
+
+        /* Rounded Edges */
+        border: 2px;
+        border-radius: 12px;
+
+        /* Opacity */
+        opacity: 0.6;
+    }
+
+.PersonalityScale:hover {
+        /* OnHover Change Opacity */
+        opacity: 1;
+    }
+
+.PersonalityScale::-webkit-progress-value {
+        /* Color of Progress Bar */
+        background-color: #33358D;
+        border-radius: 12px;
+        /* Color of Progress Bar Shadow */
+        box-shadow: 0 0 10px 1px #4D4F9B;
+    }
+
+.PersonalityScale::-webkit-progress-bar {
+        /* Color of Bar Frame */
+        background-color: #B3B3D4;
+        border-radius: 12px;
+    }
