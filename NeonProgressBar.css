@@ -29,3 +29,11 @@
         background-color: #B3B3D4;
         border-radius: 12px;
     }
+
+.PersonalityScale::-moz-progress-bar {
+        /* Color of Progress Bar */
+        background-color: #33358D;
+        border-radius: 12px;
+        /* Color of Progress Bar Shadow */
+        box-shadow: 0 0 10px 1px #4D4F9B;
+    }
